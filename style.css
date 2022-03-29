@@ -1,0 +1,129 @@
+/***********General Stylings*********/
+body {
+  margin:0;
+  font-family: "Merriweather", serif;
+  text-align:center; /*Will align everything to the center*/
+}
+a {
+  color:#11999E;
+}
+h1 {
+  margin:50px auto 0 auto;
+  font-family:"Sacramento", cursive;
+  font-size:5.625rem;
+  color:#66BFBF;
+  line-height:2;/*You Don't use units in line height only the scale*/
+}
+h2 {
+  font-family:"Montserrat", sans-serif;
+  font-size:2.5rem;
+  color:#66BFBF;
+  /*font weight specifies the boldness ,the available font weights wil depend on the font family*/
+  font-weight:normal;
+}
+h3 {
+  font-family:"Montserrat", sans-serif;
+  color:#11999E;
+}
+p {
+	line-height:2;
+}
+/*************Styling the top Container*******/
+.top-container {
+  background-image:linear-gradient(#E4F9F5 ,#66BFBF);
+  padding-top:100px;
+  position:relative; /*So the clouds get positioned relative to the .top-container block*/
+}
+.pro {
+  text-decoration:underline;
+}
+.top-cloud {
+  position:absolute;
+  top:40px;
+  right:300px;
+}
+.bottom-cloud {
+  position:absolute;
+  left:300px;
+  bottom:300px;
+}
+/*********Styling the Middle Cotainer******/
+.middle-container {
+	margin:100px 0px;
+}
+#logo {
+	width:200px;
+	height:200px;
+}
+.profile p {
+	color:#40514E;
+	width:50%;
+	margin:0 auto;
+}
+.skill-row {
+	width:50%;
+	margin:100px auto;
+	text-align:left;
+}
+
+.round {
+	margin:0px auto;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+}
+.img1 {
+	width:25%;
+	float:left;
+	margin-right:30px;
+}
+.img2 {
+	width:25%;
+	float:right;
+	margin-left:30px;
+}
+
+.no-float {
+	clear:both;
+}
+a {
+	text-decoration:none;
+}
+.contact-me a {
+	color:white;
+	font-family:"Montserrat",sans-serif;
+	font-size:20px;
+}
+hr {
+	border-style:none;
+	border-top:dotted;
+	border-width:6px;
+	width:5%;
+	color:#EAF6f6;
+	margin:50px auto;
+}
+button {
+	margin:30px;
+	padding:10px 15px;
+	border-style:none;
+	border-radius:8px;
+	background-image:linear-gradient(to bottom,#11cdd4,#11999e);
+}
+button:hover{
+	background-image:linear-gradient(#30e3cb,#2bc4ad);
+}
+/*****Stying the Bottom Container*****/
+.bottom-container {
+	color:#EAF6F6;
+	background-color:#66BFBF;
+	padding:25px;
+}
+.bottom-container a  {
+	color:#11999e;
+	margin-right:15px;
+	font-family:"Montserrat",sans-serif;
+}
+a:hover {
+	color:#EAF6F6;
+	font-size:20px;
+}
